@@ -10,6 +10,7 @@ function setup(){
   database = firebase.database();
   quiz = new Quiz();
   quiz.start();
+  
 }
 
 
