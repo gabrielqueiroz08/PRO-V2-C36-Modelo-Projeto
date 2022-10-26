@@ -25,19 +25,17 @@ class Question {
     this.title.html("Meu Questionário");
     this.title.position(350, 0);
 
-    this.question.html("Pergunta:- Quem é mais viado? " );
+    this.question.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
 
     this.question.position(150, 80);
-    this.option1.html("1: Cury, O Viadão Mais Bonito" );
+    this.option1.html("1: A letra E " );
     this.option1.position(150, 100);
-    this.option2.html("2: Gabriel Cu" );
+    this.option2.html("2: A letra M" );
     this.option2.position(150, 120);
-    this.option3.html("3: Gabriel Cury, O Cu Mais Largo" );
+    this.option3.html("3: A letra I" );
     this.option3.position(150, 140);
-    this.option4.html("4: Cu, Parente Distante Do Rapper RY" );
+    this.option4.html("4: A letra O" );
     this.option4.position(150, 160);
-    // this.option5.html("(Todas as respostas são corretas visto que todas as variantes do Cury são igualmente viadas)")
-    // this.option5.position(150, 180)
 
     this.input1.position(150, 230);
     this.input2.position(350, 230);
@@ -45,7 +43,7 @@ class Question {
 
     this.button.mousePressed(()=>{
       
-      this.message.html("Sussy baka");
+      this.message.html("Obrigado, Sua Resposta Foi Enviada");
       this.message.position(350, 350);
 
 
